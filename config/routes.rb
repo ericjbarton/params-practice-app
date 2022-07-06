@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   get "/home/:wildcard" => "params#wildcard"
 
-  get "bodyparams" => "params#bodyparams"
+  post "bodyparams" => "params#bodyparams"
 end

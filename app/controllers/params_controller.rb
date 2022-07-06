@@ -8,4 +8,9 @@ class ParamsController < ApplicationController
     result = params[:input]
     render json: (result.as_json)
   end
+
+  def bodyparams
+    result = params["input"]
+    render json: (result.as_json)
+  end
 end

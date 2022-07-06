@@ -3,3 +3,10 @@ GET http://localhost:3000/phrase
 
 ### Wildcard
 GET http://localhost:3000/home/:wildcard
+
+### Bodyparams
+
+POST http://localhost:3000/bodyparams
+Content-Type: application/json
+
+{"input": "does this work"}
