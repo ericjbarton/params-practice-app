@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get "/:phrase" => "params#phrase"
+  get "/home" => "params#phrase"
 
-  get "/home/:wildcard" => "params#wildcard"
+  get "/home/:phrase" => "params#wildcard"
 
   post "bodyparams" => "params#bodyparams"
 end

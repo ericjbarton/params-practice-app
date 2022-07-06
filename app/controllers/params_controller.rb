@@ -5,7 +5,7 @@ class ParamsController < ApplicationController
   end
 
   def wildcard
-    result = params[:input]
+    result = params["phrase"]
     render json: (result.as_json)
   end
 
