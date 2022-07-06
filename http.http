@@ -1,0 +1,2 @@
+### Phrase Search
+GET http://localhost:3000/phrase
