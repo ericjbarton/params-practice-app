@@ -1,7 +1,7 @@
 class ParamsController < ApplicationController
   def phrase
-    result = params[:input].upcase
-    render json: (result.as_json)
+    result = params["phrase"].upcase
+    render json: (result.as_json) #where the heck does the upcase go
   end
 
   def wildcard
