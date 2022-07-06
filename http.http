@@ -1,2 +1,5 @@
 ### Phrase Search
 GET http://localhost:3000/phrase
+
+### Wildcard
+GET http://localhost:3000/home/:wildcard
